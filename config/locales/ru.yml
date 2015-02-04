@@ -19,23 +19,23 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+ru:
   layouts:
     application:
-      title: "Pragmatic bookshelf"
-      home: "Home"
-      questions: "Questions"
-      news: "News"
-      contacts: "Contact"
+      title: "Практическая книжная полка"
+      home: "Домой"
+      questions: "Вопросы"
+      news: "Новости"
+      contacts: "Контакты"
   store:
     index:
-      title_html: "Pragmatic catalog"
-      add_html: "Add to Cart"
+      title_html: "Практичный каталог"
+      add_html: "Добавить в корзину"
   carts:
     cart:
-      title: "Your Cart"
-      checkout: "Checkout"
-      empty: "Empty cart"
+      title: "Корзина"
+      checkout: "Расссчитать"
+      empty: "Очистить"
   number:
     currency:
       format:
@@ -43,19 +43,21 @@ en:
         precision: 2
         separator: "."
         delimeter: ','
-        format: "%u%n"
+        format: "%n&nbsp;%u"
   orders:
     new:
-      legend: "Please enter your details"
+      legend: "Уточните контактные данные"
     form:
-      name: "Name"
-      address_html: "Address"
+      name: "имя"
+      address_html: "Адресс"
       email: "Email"
-      pay_type: "Pay with"
-      pay_promt_html: "Select a payment method"
-      submit: "Place Order"
+      pay_type: "Платить "
+      pay_promt_html: "Выберете метод платежа"
+      submit: "Оформить"
   hello: "Hello world"
   activerecord:
     errors:
       messages:
         taken: has already been taken
+        inclusion: "Нужно выбрать"
+        blank: "Поле не может быть пустым"
